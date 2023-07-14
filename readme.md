@@ -71,7 +71,38 @@ Algumas pessoas relataram atraso ao usar a área de trabalho remota. Eu não tiv
 
 O exame é difícil? Acho que sim. Qualquer pessoa com experiência com Kubernetes deve ser capaz de responder a todas as perguntas. Você tem permissão para usar a documentação do Kubernetes.
 
-Não posso divulgar nenhuma das perguntas por causa da NDA, mas posso dizer que se você puder responder a todas as perguntas do Killer.sh dentro de duas horas, você está em um bom lugar para o exame.
+Não posso divulgar nenhuma das perguntas, mas se você puder responder a todas as perguntas do Killer.sh dentro de duas horas, você está em um bom lugar para o exame.
 
-O problema é a hora. Você tem duas horas. Parece muito tempo, mas não é. Para passar neste exame, você deve ser rápido no terminal usando kubectl. Você não tem tempo suficiente para pesquisar a resposta de cada pergunta na documentação do Kubernetes.
+A maior problema é o tempo. Vamos focar na gestão do tempo.
+
+### Tempo
+
+Os alias do `kubectl` com `k` já está configurado, para nossa alegria.
+
+No Killer.sh você já terá ideia de quais os atalhos iram funcionar no ambiente da prova. 
+
+Eu usei duas variavei de ambiente, no ```.bashrc```:
+
+```
+export do="--dry-run=client -o yaml"
+export now="--force --graceful-period=0"
+```
+Depois executei: ```source .bashrc```
+
+```
+k run nginx --image=nginx $do > pod.yaml
+k delete po nginx $now 
+```
+
+### Comandos declarativos:
+
+Dê sempre preferencia a linha de comando para criação de objetos.
+
+### Momento da prova
+
+Nos primeiros minutos anotei todos os numeros das questões e seus pesos.  
+
+Iniciei com as questões de peso mais alto e mais faceis. Pulei algumas questões que levaram muito tempo, sinalize a pergunta e continue com a próxima pergunta.
+
+Você sempre pode reavaliar se tiver tempo restante no final do exame.
 
