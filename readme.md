@@ -1,9 +1,5 @@
 # Sendo aprovado para a CKA
----
-### Overview sobre a prova
 
-O exame Certified Kubernetes Administrator ( CKA ) testa conhecimentos, habilidades e as capacidades de um indivíduo de executar as tarefas exigidas por um administrador do Kubernetes.
----
 ### O que é e para que serve Kubernetes?
 
 Kubernetes é uma plataforma de código aberto que permite gerenciar e orquestrar aplicativos em **contêineres** de forma eficiente, escalável e automatizada, facilitando a implantação e o gerenciamento de aplicações distribuídas.
@@ -60,6 +56,8 @@ Killer.sh afirma que o exame é mais desafiador do que o exame real. Eu concordo
 
 Comecei com o curso na udemy completei a primeira vez só assistindo e ignorando o que eu não sabia para me familiarizar com o conteudo, fiz o curso pela segunda vez e só passava para o proximo modulo quando tivesse total domininio do conteudo, usei o livro como material de apoio, nas duas vezes fiz todos os laboratorios. Quando terminei, pratiquei os exames simulados incluídos várias vezes no KodeKloud. Eu os pratiquei até conseguir 100% e terminar a tempo.
 
+---
+
 Após o curso, iniciei a primeira simulação do Killer.sh, respondi todas as perguntas, as primeiras vezes foram horriveis, mas continuei praticando até terminar o simulado a tempo e passar. A simulação Killer.sh usa quase o mesmo ambiente que o exame real. Ele também usa uma área de trabalho remota na qual você pode iniciar um terminal e um navegador.
 
 Estudei as soluções do Killer.sh e reiterei os tópicos no curso Udemy e apostila.
@@ -72,11 +70,15 @@ Fiz o exame e passei.
 Você faz o exame respondendo perguntas sobre cenários executados em alguns
 clusters do Kubernetes. Com esta nova versão, você usa o navegador PSI seguro, que o conecta a uma área de trabalho remota com o Ubuntu.
 
+---
+
 Você executa as tarefas usando o terminal que pode iniciar através da área de trabalho remota. Você pode acessar a documentação do Kubernetes através de um navegador da web no sistema e navegar no site do Kubernetes.
 
 Algumas pessoas relataram atraso ao usar a área de trabalho remota. Eu não tive essa experiência. A área de trabalho remota reagiu rapidamente e o uso do terminal e do navegador remoto funcionou sem problemas.
 
 O exame é difícil? Acho que sim. Qualquer pessoa com experiência com Kubernetes deve ser capaz de responder a todas as perguntas. Você tem permissão para usar a documentação do Kubernetes.
+
+---
 
 Não posso divulgar nenhuma das perguntas, mas se você puder responder a todas as perguntas do Killer.sh dentro de duas horas, você está em um bom lugar para o exame.
 
@@ -96,6 +98,9 @@ Eu usei duas variavei de ambiente, no ```.bashrc```:
 export do="--dry-run=client -o yaml"
 export now="--force --graceful-period=0"
 ```
+
+---
+
 Depois executei: ```source .bashrc```
 
 ```
