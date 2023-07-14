@@ -1,4 +1,15 @@
+---
+marp: true
+theme: gaia
+_class: lead
+paginate: true
+backgroundColor: #fff
+backgroundImage: url('https://marp.app/assets/hero-background.svg')
+
+---
+
 # Sendo aprovado para a CKA
+---
 
 ### O que é e para que serve Kubernetes?
 
@@ -74,7 +85,7 @@ clusters do Kubernetes. Com esta nova versão, você usa o navegador PSI seguro,
 
 Você executa as tarefas usando o terminal que pode iniciar através da área de trabalho remota. Você pode acessar a documentação do Kubernetes através de um navegador da web no sistema e navegar no site do Kubernetes.
 
-Algumas pessoas relataram atraso ao usar a área de trabalho remota. Eu não tive essa experiência. A área de trabalho remota reagiu rapidamente e o uso do terminal e do navegador remoto funcionou sem problemas.
+O Meu ambiente travou bastante principalmente nos minutos finais da prova.  Saiba falar: "My environment is crashing.", "Give me more time please".
 
 O exame é difícil? Acho que sim. Qualquer pessoa com experiência com Kubernetes deve ser capaz de responder a todas as perguntas. Você tem permissão para usar a documentação do Kubernetes.
 
@@ -130,3 +141,6 @@ Eu me diverti com o exame e o curso. Aprendi coisas novas sobre Kubernetes com o
 Você também pode passar no exame se tiver experiência e já trabalhar com um cluster Kubernetes.
 
 O mais importante é praticar muito e se tornar rápido execução do kubectl e criação dos objetos. 
+
+--- 
+## Questions?
