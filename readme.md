@@ -1,13 +1,14 @@
 # Sendo aprovado para a CKA
-
+---
 ### Overview sobre a prova
 
 O exame Certified Kubernetes Administrator ( CKA ) testa conhecimentos, habilidades e as capacidades de um indivíduo de executar as tarefas exigidas por um administrador do Kubernetes.
-
+---
 ### O que é e para que serve Kubernetes?
 
 Kubernetes é uma plataforma de código aberto que permite gerenciar e orquestrar aplicativos em **contêineres** de forma eficiente, escalável e automatizada, facilitando a implantação e o gerenciamento de aplicações distribuídas.
 
+---
 
 ### Pré requisitos não oficiais
 
@@ -15,6 +16,7 @@ Kubernetes é uma plataforma de código aberto que permite gerenciar e orquestra
 - Bom, se o k8s é um gerenciador de containers, você tem que entender deles ```docker cri-o```. 
 - Vim é o editor oficial do kubectl, profissionais serios não usam o nano.
 
+---
 ### Sobre a prova
 
 - À pontuação exigida para passar é 66.
@@ -24,6 +26,7 @@ Kubernetes é uma plataforma de código aberto que permite gerenciar e orquestra
 - A prova custa: 395 dolares.
 - Duas chances no simulado oficial: https://killer.sh/
 
+---
 ### Topicos do exame: 
 
 Você deve mostrar que entende os seguintes tópicos para passar no exame. Por trás do assunto, há uma porcentagem que indica o peso do tópico no exame.
@@ -34,6 +37,7 @@ Você deve mostrar que entende os seguintes tópicos para passar no exame. Por t
 - Serviços e redes ( 20% )
 - [Curriculo da Prova](https://github.com/cncf/curriculum/blob/master/CKA_Curriculum_v1.27.pdf)
 
+---
 ### Minha preparação:
 
 - [Curso do Mumshad](https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/)
@@ -43,12 +47,15 @@ Você deve mostrar que entende os seguintes tópicos para passar no exame. Por t
 
 O curso do Mumshad para mim é excelente, explica todos os topicos com detalhes. O livro entrou como um complemento dos assuntos que eu não entendia. O valor real veio nos simulados que acompanham o curso na kodekloud.
 
+---
+
 #### Killer.sh
 
 Você recebe duas sessões gratuitas de simulador do Killer.sh ao comprar o exame. A cada sessão, você tem acesso de 36 horas a um cluster Kubernetes, onde precisa responder às 24 perguntas do exame.
 
 Killer.sh afirma que o exame é mais desafiador do que o exame real. Eu concordo em partes. O nivel de dificuldade é o mesmo. A diferença é que o exame killer.sh tem 22 perguntas, enquanto no exame real, existem 17.
 
+---
 ### Meu plano de estudos.
 
 Comecei com o curso na udemy completei a primeira vez só assistindo e ignorando o que eu não sabia para me familiarizar com o conteudo, fiz o curso pela segunda vez e só passava para o proximo modulo quando tivesse total domininio do conteudo, usei o livro como material de apoio, nas duas vezes fiz todos os laboratorios. Quando terminei, pratiquei os exames simulados incluídos várias vezes no KodeKloud. Eu os pratiquei até conseguir 100% e terminar a tempo.
@@ -59,7 +66,7 @@ Estudei as soluções do Killer.sh e reiterei os tópicos no curso Udemy e apost
 
 Fiz o exame e passei.
 
-
+---
 ### A Prova
 
 Você faz o exame respondendo perguntas sobre cenários executados em alguns
@@ -74,6 +81,8 @@ O exame é difícil? Acho que sim. Qualquer pessoa com experiência com Kubernet
 Não posso divulgar nenhuma das perguntas, mas se você puder responder a todas as perguntas do Killer.sh dentro de duas horas, você está em um bom lugar para o exame.
 
 A maior problema é o tempo. Vamos focar na gestão do tempo.
+
+---
 
 ### Tempo
 
@@ -94,9 +103,12 @@ k run nginx --image=nginx $do > pod.yaml
 k delete po nginx $now 
 ```
 
+---
 ### Comandos declarativos:
 
 Dê sempre preferencia a linha de comando para criação de objetos.
+
+---
 
 ### Momento da prova
 
@@ -106,3 +118,10 @@ Iniciei com as questões de peso mais alto e mais faceis. Pulei algumas questõe
 
 Você sempre pode reavaliar se tiver tempo restante no final do exame.
 
+---
+### Conclusão
+Eu me diverti com o exame e o curso. Aprendi coisas novas sobre Kubernetes com o decorrer do tempo. 
+
+Você também pode passar no exame se tiver experiência e já trabalhar com um cluster Kubernetes.
+
+O mais importante é praticar muito e se tornar rápido execução do kubectl e criação dos objetos. 
